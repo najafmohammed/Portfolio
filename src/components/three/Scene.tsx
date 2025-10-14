@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 'use client'
 
 import React, { Suspense, useState, useEffect, useRef, useMemo } from 'react'
@@ -52,7 +53,7 @@ function WindLine() {
       color="white"
       decay={0.02}
       attenuation={(t) => t * t}
-      target={null}
+      target={ref}
     >
       <Sphere ref={ref} args={[0.02, 8, 8]}>
         <meshBasicMaterial color="white" transparent opacity={0.5} />
@@ -130,11 +131,12 @@ export function WindyTree({
 
   useFrame(({ clock }) => {
     const t = clock.getElapsedTime()
+    if (!ref.current) return
     ref.current.traverse((child: any) => {
       if (child.isMesh) {
         if (!child.material.userData.originalOnBeforeCompile) {
           child.material.userData.originalOnBeforeCompile = child.material.onBeforeCompile
-          child.material.onBeforeCompile = (shader) => {
+          child.material.onBeforeCompile = (shader: { uniforms: { uTime: { value: number } }; vertexShader: string }) => {
             shader.uniforms.uTime = { value: 0 }
             shader.vertexShader = shader.vertexShader.replace(
               '#include <common>',
