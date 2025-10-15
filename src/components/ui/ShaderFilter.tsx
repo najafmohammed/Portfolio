@@ -34,7 +34,7 @@ export const shaderExperiments: ShaderExperiment[] = [
       "Shader-based grid distortion experiment"
     ],
     tags: ["three.js", "glsl", "shader"],
-    imageUrl: "/videos/perlin_2d.gif",
+    imageUrl: "/videos/perlin_2D.gif",
     githubUrl: "https://github.com/najafmohammed/Perlin-2d",
     liveUrl: "https://perlin-2d.vercel.app",
     shaderUrl: "/shaders/perlin-2d"

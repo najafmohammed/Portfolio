@@ -27,7 +27,7 @@ export const shaderExperiments: ShaderExperiment[] = [
     title: "Perlin 2D",
     description: "A 2D Perlin noise visualization.",
     tags: ["three.js", "glsl", "shader"],
-    imageUrl: "/videos/perlin_2d.gif",
+    imageUrl: "/videos/perlin_2D.gif",
     githubUrl: "https://github.com/najafmohammed/Perlin-2d",
     shaderUrl: "/shaders/perlin-2d"
   },
