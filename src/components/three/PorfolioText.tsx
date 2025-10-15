@@ -11,8 +11,8 @@ export function PortfolioText() {
 
     const texts = [
         'Full Stack Developer',
-        "Probably watching anime or in the gym right now",
         "Over-engineering solutions",
+        "Probably watching anime",
         "Listening to copious amounts of music",
     ]
 
