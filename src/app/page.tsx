@@ -41,7 +41,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="block"
             >
-              <img
+              <Image
                 src="https://spotify-github-profile.kittinanx.com/api/view?uid=31ug3hobtbmx5vxfz743glp3ri6i&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=false&profanity=false&bar_color=1183ee&bar_color_cover=false"
                 alt="Spotify Profile Widget"
                 className="rounded-lg shadow-lg"

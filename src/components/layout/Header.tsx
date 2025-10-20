@@ -43,7 +43,7 @@ const Header = ({ isHomePage = false }: HeaderProps) => {
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center space-x-8">
-          {['Home', 'Works', 'Muon Labs'].map((label) => (
+          {['Home', 'Works', 'Artworks', 'Muon Labs'].map((label) => (
             <Link
               key={label}
               href={label === 'Home' ? '/' : `/${label.toLowerCase().replace(' ', '-')}`}
@@ -106,7 +106,7 @@ const Header = ({ isHomePage = false }: HeaderProps) => {
                 </svg>
               </button>
 
-              {['Home', 'Works', 'Muon Labs'].map((label) => (
+              {['Home', 'Works', 'Artworks', 'Muon Labs'].map((label) => (
                 <Link
                   key={label}
                   href={label === 'Home' ? '/' : `/${label.toLowerCase().replace(' ', '-')}`}

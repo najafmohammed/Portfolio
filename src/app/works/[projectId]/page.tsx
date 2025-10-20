@@ -48,7 +48,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
           <div className="space-y-6">
             <div className="relative aspect-video overflow-hidden rounded-lg bg-gray-900">
               {project.mediaType === 'gif' ? (
-                <img
+                <Image
                   src={project.imageUrl}
                   alt={project.title}
                   className="h-full w-full object-cover"
