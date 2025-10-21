@@ -49,6 +49,8 @@ export default function ArtworkGrid() {
             <Image
               src={art.imageUrl}
               alt={art.title}
+              width={290}
+              height={360}
               className="w-full h-64 object-cover object-center pointer-events-none select-none"
               draggable={false}
             />
@@ -79,6 +81,8 @@ export default function ArtworkGrid() {
             <Image
               src={fullscreen.imageUrl}
               alt={fullscreen.title}
+              width={500}
+              height={500}
               className="w-full max-h-[80vh] object-contain rounded-lg shadow-2xl"
               style={{
                 boxShadow: '0 8px 32px #0006'

@@ -24,6 +24,7 @@ export const projects: Project[] = [
       "Built in collaboration with a designer"
     ],
     tags: ["web", "ui/ux", "portfolio"],
+    liveUrl:"https://ux-portfolio-mu.vercel.app/home",
     imageUrl: "/images/projects/ux_portfolio.png",
     mediaType: "image",
     category: 'web',
@@ -38,6 +39,7 @@ export const projects: Project[] = [
       "Focus on UI and usability"
     ],
     tags: ["flutter", "mobile"],
+    liveUrl:"https://github.com/najafmohammed/muon-workout-tracker/releases",
     imageUrl: "/images/projects/muon workout tracker.png",
     mediaType: "image",
     category: 'mobile',
@@ -46,20 +48,6 @@ export const projects: Project[] = [
   },
   {
     id: 'project-4',
-    title: "Kalapila",
-    description: [
-      "First web development project",
-      "Simple JS-based website","This is soo cringe"
-    ],
-    tags: ["web", "javascript"],
-    imageUrl: "/images/projects/kalapila.png",
-    mediaType: "image",
-    category: 'web',
-    link: "/works/project-4",
-    githubUrl: "https://github.com/najafmohammed/Kalapila"
-  },
-  {
-    id: 'project-5',
     title: "Cardio AI",
     description: [
       "Flutter mobile app to predict cardiovascular disease",
@@ -69,12 +57,13 @@ export const projects: Project[] = [
     tags: ["flutter", "mobile", "machine-learning", "firebase"],
     imageUrl: "/images/projects/cardio_ai.png",
     mediaType: "image",
+    liveUrl:"https://github.com/najafmohammed/cardio_ai/releases",
     category: 'mobile',
     link: "/works/project-5",
     githubUrl: "https://github.com/najafmohammed/cardio_ai"
   },
   {
-    id: 'project-6',
+    id: 'project-5',
     title: "Cardio AI Admin",
     description: [
       "Flutter web admin panel for Cardio AI",
@@ -85,12 +74,13 @@ export const projects: Project[] = [
     imageUrl: "/images/projects/cardio_ai_admin.png",
     mediaType: "image",
     category: 'web',
+    liveUrl:"https://cardio-ai-admin.netlify.app/#/",
     link: "/works/project-6",
     githubUrl: "https://github.com/najafmohammed/cardio_ai_admin"
   },
   
   {
-    id: 'project-7',
+    id: 'project-6',
     title: "Heart Disease Prediction",
     description: [
       "Implemented multiple ML algorithms (LogReg, SVM, RF, ANN)",
@@ -101,8 +91,24 @@ export const projects: Project[] = [
     imageUrl: "/images/projects/heart_disease_prediction.png",
     mediaType: "image",
     category: 'data-analysis',
+    liveUrl:"https://github.com/najafmohammed/Heart-Disease-Prediction/blob/main/Heart_disease_prediction.ipynb",
     link: "/works/project-7",
     githubUrl: "https://github.com/najafmohammed/Heart-Disease-Prediction"
+  },
+  {
+    id: 'project-7',
+    title: "Kalapila",
+    description: [
+      "First web development project",
+      "Simple JS-based website","This is soo cringe"
+    ],
+    tags: ["web", "javascript"],
+    imageUrl: "/images/projects/kalapila.png",
+    liveUrl:"https://najafmohammed.github.io/Kalapila/",
+    mediaType: "image",
+    category: 'web',
+    link: "/works/project-4",
+    githubUrl: "https://github.com/najafmohammed/Kalapila"
   },
   
 ];
