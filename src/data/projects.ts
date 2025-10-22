@@ -59,7 +59,7 @@ export const projects: Project[] = [
     mediaType: "image",
     liveUrl:"https://github.com/najafmohammed/cardio_ai/releases",
     category: 'mobile',
-    link: "/works/project-5",
+    link: "/works/project-4",
     githubUrl: "https://github.com/najafmohammed/cardio_ai"
   },
   {
@@ -75,7 +75,7 @@ export const projects: Project[] = [
     mediaType: "image",
     category: 'web',
     liveUrl:"https://cardio-ai-admin.netlify.app/#/",
-    link: "/works/project-6",
+    link: "/works/project-5",
     githubUrl: "https://github.com/najafmohammed/cardio_ai_admin"
   },
   
@@ -92,7 +92,7 @@ export const projects: Project[] = [
     mediaType: "image",
     category: 'data-analysis',
     liveUrl:"https://github.com/najafmohammed/Heart-Disease-Prediction/blob/main/Heart_disease_prediction.ipynb",
-    link: "/works/project-7",
+    link: "/works/project-6",
     githubUrl: "https://github.com/najafmohammed/Heart-Disease-Prediction"
   },
   {
@@ -107,7 +107,7 @@ export const projects: Project[] = [
     liveUrl:"https://najafmohammed.github.io/Kalapila/",
     mediaType: "image",
     category: 'web',
-    link: "/works/project-4",
+    link: "/works/project-7",
     githubUrl: "https://github.com/najafmohammed/Kalapila"
   },
   
