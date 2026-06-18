@@ -16,20 +16,22 @@ export const projects: Project[] = [
     link: '/works/project-1',
     category: 'web'
   },
+  
   {
     id: 'project-2',
-    title: "UX Portfolio Website",
+    title: "Muon Audio Analyzer",
     description: [
-      "Developed a personal UX portfolio site",
-      "Built in collaboration with a designer"
+      "Node-based real-time audio analysis and visualization engine built with React Flow",
+      "Real-time feature extraction including FFT, RMS, spectral centroid, and beat detection using Meyda",
+      "Modular library with input, audio analysis, math, logic, custom JS script, and output nodes",
+      "High-performance rendering of intensive visualizations using Three.js and react-three-fiber"
     ],
-    tags: ["web", "ui/ux", "portfolio"],
-    liveUrl:"https://ux-portfolio-mu.vercel.app/home",
-    imageUrl: "/images/projects/ux_portfolio.png",
+    tags: ["react", "react-flow", "meyda", "three.js", "zustand", "webgl", "audio-analysis"],
+    imageUrl: "/images/projects/muon music analysis.png",
     mediaType: "image",
     category: 'web',
     link: "/works/project-2",
-    githubUrl: "https://github.com/HrishiMurali/UX-Portfolio"
+    githubUrl: "https://github.com/najafmohammed/Muon-Audio-Analysis"
   },
   {
     id: 'project-3',
@@ -110,7 +112,38 @@ export const projects: Project[] = [
     link: "/works/project-7",
     githubUrl: "https://github.com/najafmohammed/Kalapila"
   },
-  
+  {
+    id: 'project-8',
+    title: "UX Portfolio Website",
+    description: [
+      "Developed a personal UX portfolio site",
+      "Built in collaboration with a designer"
+    ],
+    tags: ["web", "ui/ux", "portfolio"],
+    liveUrl:"https://ux-portfolio-mu.vercel.app/home",
+    imageUrl: "/images/projects/ux_portfolio.png",
+    mediaType: "image",
+    category: 'web',
+    link: "/works/project-8",
+    githubUrl: "https://github.com/HrishiMurali/UX-Portfolio"
+  },
+  {
+    id: 'project-9',
+    title: "Parts Management System",
+    description: [
+      "Full-stack web application designed to manage users and inventory parts with CRUD functionality",
+      "Robust backend built with FastAPI, SQLAlchemy, PostgreSQL, and Pydantic validation",
+      "Responsive frontend overhaul built using React, Mantine, and TypeScript",
+      "Comprehensive system logging with automated history tracking (Create, Update, Delete)",
+      "Thorough unit testing with pytest isolation and frontend Jest/React Testing Library suites"
+    ],
+    tags: ["react", "mantine", "typescript", "fastapi", "sqlalchemy", "postgresql", "docker", "pytest", "jest"],
+    imageUrl: "/images/projects/parts management.png",
+    mediaType: "image",
+    category: 'web',
+    link: "/works/project-9",
+    githubUrl: "https://github.com/najafmohammed/Parts-management-system"
+  },
 ];
 
 export const getProjectCategories = (): string[] => {
